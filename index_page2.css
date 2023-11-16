@@ -1,0 +1,254 @@
+.h0 {
+    font-size: 60px;
+    font-family: 'Arial';
+    color: #a35a42;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.h1 {
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+    color: #b4b4b4;
+    text-align: center;
+    margin-top: 18px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.CenterDiv {
+    margin-left: 25%;
+    width: 50%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.div-container {
+    max-width: 740px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Square-Next-button {
+    width: 540px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #48687e;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    border: #939393a3 2px solid;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.CenterButtons {
+    display: flex;
+    justify-content: center;
+    /* Center vertically within the container */
+    align-items: center;
+    /* Center horizontally within the container */
+}
+
+.button {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #bfbfbf;
+    color: #000000;
+    border: #a4a4a4 8px solid;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+    width: 250px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.Travelbutton {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #bfbfbf;
+    color: #000000;
+    border: #a4a4a4 8px solid;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.AboutUs {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #5d86a2;
+    color: #fff;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+    width: 50%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* slideshow */
+
+.containerDIV {
+    background-color: #a35a42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 450px;
+}
+
+.slideshow-container {
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the slides by default */
+.slides li {
+    display: none;
+    width: 140%;
+}
+
+/* Style the images */
+.slides img {
+    width: 89%;
+    margin-right: 390px;
+}
+
+.REDISCOVEREALEXANDRIA {
+    width: 250px;
+    margin-right: px;
+    font-family: 'Arial', cursive;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 4px;
+    background-color: #2e36388f;
+    padding: 40px;
+
+}
+
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #2e3638;
+    /* Background color */
+    overflow: hidden;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+/* Style the navigation links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 18px;
+    font-family: 'Arial', cursive;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 14PX;
+
+}
+
+/* Change the link color when you hover over it */
+.navbar a:hover {
+    background-color: #5d86a2;
+    /* Background color on hover */
+}
+
+
+.aboutUsDIV {
+    background-color: #2e3638;
+    font-family: 'Arial', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 100px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.click {
+    font-size: 12px;
+    font-family: 'Arial', cursive;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.click-container {
+    background-color: #2e3638;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-right: -6px;
+}
+
+.click-content {
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.about-us {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.up-image {
+    margin-left: auto;
+}
+
+.click-container2 {
+    background-color: #f9f9f9;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    margin-right: -6px;
+    font-size: 20px;
+    font-family: 'Arial', cursive;
+    color: #2e3638;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+

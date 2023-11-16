@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .form-container {
+            max-width: 350px;
+            height: 550px;
+            margin-top: 40px;
+            margin-left: 20px;
+            padding: 40px;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+            background-color: #5d86a241;
+            text-align: center;
+        }
+
+        .TitleText {
+            font-size: 19px;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #b26a51, #81abc7);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .SubTitleText {
+            font-size: 19px;
+            font-family: 'Arial', cursive;
+            color: #ebebeb;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .Text {
+            font-size: 14px;
+            font-family: 'Arial', cursive;
+            color: #ebebeb;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .SelectText {
+            background-color: #5d86a2;
+            width: 250px;
+            height: 25px;
+            font-size: 15px;
+            padding-left: 10px;
+        }
+
+        .StartButton {
+            width: 40%;
+            display: inline-block;
+            padding: 10px 10px;
+            background-color: #b7674c;
+            background: linear-gradient(45deg, #8f4d37, #355b75);
+            color: #fff;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .inputs {
+            width: 15px;
+            height: 15px;
+            border-radius: 15px;
+            position: relative;
+            background-color: #b26a51;
+            accent-color: #b26a51;
+            content: '';
+            display: inline-block;
+            visibility: visible;
+            border: 2px solid white;
+        }
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="form-container">
+
+        <h1 class="TitleText">CUSTOMIZE YOUR OWN JOURNEY</h1> <br><br>
+        <form action="">
+
+            <h2 class="SubTitleText">Step 1 : Destination</h2>
+            <br>
+            <label for="attractios" class="Text">Choose your Destination</label>
+            <br><br>
+            <select name="attractios" id="attractios" class="SelectText">
+                <option value="all">All</option>
+                <optgroup label="Swedish Cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                </optgroup>
+                <optgroup label="German Cars">
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </optgroup>
+            </select>
+            <br><br>
+
+            <h3 class="Text" style="font-size: 14px;">Do you have a Bike?</h3>
+            <input class="inputs" type="radio" id="bike1" name="bike" value="yes">
+            <label class="Text" for="bike1"> Yes, I have</label>
+            <input class="inputs" type="radio" id="bike2" name="bike2" value="no">
+            <label class="Text" for="bike2">No, I haven't</label>
+            <br><br><br>
+
+            <h2 class="SubTitleText">Step 2 : Travel Mode</h2>
+            <br>
+            <label for="modes" class="Text">Choose your prefered Travel Mode</label>
+            <br> <br>
+            <select name="modes" id="modes" class="SelectText">
+                <option value="on foot">On Foot</option>
+                <option value="cycling">Cycling</option>
+                <option value="tram">Tram</option>
+                <option value="E-bus">E-Bus</option>
+            </select>
+            <br><br><br>
+            <input class="StartButton" type="submit" value="Start">
+        </form>
+
+    </div>
+</body>
+
+</html>
